@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social-Letter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(235, 235, 235);
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-image: -webkit-linear-gradient(65deg, rgb(101, 229, 238) 50%, rgb(85, 157, 238) 50%);
+            height: 100px;
+        }
+        header{
+            color: rgb(247, 247, 247);
+            font-size: 26px;
+        }
+
+        .ul-nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .ul-nav li{
+            margin: 0px 20px 0px 20px;
+            color: white;
+            list-style: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .ul-nav li:hover{
+            color: black;
+        }
+
+        .ul-nav li a{
+            text-decoration: none;
+            color: white;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        #newletter{
+            height: 40px;
+            width: 500px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            outline: none;
+            border: 2px solid rgb(40, 255, 244);
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+        #btn-bt{
+            height: 40px;
+            width: 100px;
+            border: 2px solid rgb(40, 255, 244);
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            outline: none;
+            padding: 10px;
+            border-left-color: rgb(76, 223, 174);
+            background-color: rgb(76, 223, 174);
+            color: white;
+        }
+        .heading{
+            color: black;
+            font-size: 18px;
+            text-align: center;
+            padding: 40px;
+        }
+        p{
+            background-image: -webkit-radial-gradient(rgb(96, 123, 212),rgb(88, 144, 196));
+            height: auto;
+            width: 100%;
+            padding: 40px;
+            border: 1px solid rgb(255, 255, 255);
+            border-right-color: white;
+            border-left-color: white;
+            color: white;
+            font-size: 18px;
+        }
+        p:last-child{
+            border-bottom: none;
+        }
+
+        footer{
+            background-color: aquamarine;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        label{
+            color: rgb(22, 22, 22);
+            font-size: 20px;
+            padding: 0px 10px 0px 0px;
+        }
+    </style>
+    <nav>
+        <header>
+            <h1>Socialletter</h1>
+        </header>
+    
+        <ul class="ul-nav">
+            <li> <a href="/"> Home</a></li>
+            <li> <a href="/aboutus"> About us</a></li>
+            <li> <a href="/contact"> Contact us</a> </li>
+        </ul>
+      </nav>
+</head>
+<body>

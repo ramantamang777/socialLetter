@@ -1,0 +1,19 @@
+
+<%- include("header.ejs") -%>
+
+<h1 class="heading"> <%= today %> </h1>
+
+<form action="/" method="post">
+   <!-- <input type="text" name="submit" id="newletter"> -->
+   <label for="newletter">Post:  </label>
+   <textarea name="submit" id="newletter" cols="30" rows="10"></textarea> 
+   <button type="submit" name="btn" id="btn-bt">publish</button> 
+</form>
+
+<% for(var i = 1; i < newItems.length ; i++) { %>
+      <div class="div">
+           <p> <%= i %> <%= newItems[i] %> </p>
+      </div>
+<% } %>
+
+<%- include("footer.ejs") -%>
